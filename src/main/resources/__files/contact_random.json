@@ -1,0 +1,6 @@
+{
+    "id": "{{request.query.id}}",
+    "firstName": "{{randomValue length=1 'Alice' 'Bob' 'Charlie' 'Diana' 'Emma' 'Frank' 'Grace' 'Henry' 'Ivy' 'Jack' 'Kate' 'Liam' 'Mia' 'Noah' 'Olivia'}}",
+    "lastName": "{{randomValue length=1 'Smith' 'Johnson' 'Williams' 'Brown' 'Jones' 'Garcia' 'Miller' 'Davis' 'Rodriguez' 'Martinez' 'Lopez' 'Taylor' 'Anderson' 'Thomas' 'Jackson'}}",
+    "email": "{{lower firstName}}.{{lower lastName}}@example.com"
+}

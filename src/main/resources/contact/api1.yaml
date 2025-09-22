@@ -2,8 +2,8 @@ ignored: false
 request:
   method: GET
   url: /api/contact
-  queryParameters:
-    id: '1'
 response:
   status: 200
-  bodyFromFile: contact_data.json
+  bodyFromFile: contact_random.json
+  transformers:
+    - response-template

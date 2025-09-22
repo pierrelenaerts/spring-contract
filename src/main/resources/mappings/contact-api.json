@@ -1,0 +1,12 @@
+{
+  "id": "random-contact-api",
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/contact.*"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "contact_random.json",
+    "transformers": ["response-template"]
+  }
+}
